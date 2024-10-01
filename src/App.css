@@ -2,3 +2,22 @@
   text-align: left;
 }
 
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
